@@ -117,16 +117,7 @@ class TicTacToe
     winner
   end
 
- def play
-   untl over? == true
-   turn
-   if won?
-     puts "Congratualions #{winner}!"
-   elsif draw?
-     puts "Cat's Game!"
-   end 
 
- end
 
 
 
