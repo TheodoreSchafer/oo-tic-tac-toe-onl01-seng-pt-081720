@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class TicTacToe
 
@@ -124,4 +124,4 @@ class TicTacToe
 
 end
 
-TicTacToe
+
