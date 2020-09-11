@@ -103,7 +103,7 @@ class TicTacToe
       return false
     end
   end
-binding.pry
+
   def winner    
     index = won?
     if index == false
