@@ -1,3 +1,5 @@
+require 'pry'
+
 class TicTacToe
 
   WIN_COMBINATIONS = [
@@ -101,7 +103,7 @@ class TicTacToe
       return false
     end
   end
-
+binding.pry
   def winner
     index = []
     index = won?
