@@ -116,7 +116,7 @@ class TicTacToe
     end
     if won?
       @winner = winner
-      puts 'Congratualions ' + @winner + "!"
+      puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
     end
