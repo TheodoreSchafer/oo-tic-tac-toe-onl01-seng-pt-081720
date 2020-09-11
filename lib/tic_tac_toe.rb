@@ -104,8 +104,7 @@ class TicTacToe
     end
   end
 binding.pry
-  def winner
-    index = []
+  def winner    
     index = won?
     if index == false
       return nil
